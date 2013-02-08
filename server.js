@@ -9,7 +9,7 @@ function start(route) {
 
     route(pathname);
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.write("Requête executée");
+    response.write("Bonjour monde, je m'appelle SPOT et je suis un projet de ouf !");
     response.end();
   }
   http.createServer(onRequest).listen(8888);
